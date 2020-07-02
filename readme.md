@@ -29,7 +29,7 @@ define a query in query.txt file
 ```
 python test_queries.py filepath_of_query filepath_of_inverted_index filepath_of_bigramindex filepath_of_docids
 ```
-i.e.
+For Example
 ```
 python test_queries.py query.txt index.txt bigram_index.txt docids.txt
 ```
