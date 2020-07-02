@@ -1,5 +1,5 @@
 
-### install hashedindex package available at pypi using 
+## install hashedindex package available at pypi using 
 ```
 pip install hashedindex
 ```
@@ -26,10 +26,12 @@ docids.txt
 define a query in query.txt file
 
 ### to run query on vector space model:
-```python test_queries.py filepath_of_query filepath_of_inverted_index filepath_of_bigramindex filepath_of_docids
+```
+python test_queries.py filepath_of_query filepath_of_inverted_index filepath_of_bigramindex filepath_of_docids
 ```
 i.e.
-```python test_queries.py query.txt index.txt bigram_index.txt docids.txt
+```
+python test_queries.py query.txt index.txt bigram_index.txt docids.txt
 ```
 
 ### to run query on model based on champion list:
